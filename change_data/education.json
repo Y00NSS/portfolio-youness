@@ -1,0 +1,23 @@
+[
+  {
+    "from": "2026",
+    "to": "Présent",
+    "title": "Licence Électronique, Énergie Électrique et Automatique (EEA)",
+    "company": "Université Grenoble Alpes (UGA)",
+    "description": "Formation en électronique, automatique, systèmes embarqués, traitement du signal, énergie électrique et automatisation industrielle."
+  },
+  {
+    "from": "2025",
+    "to": "2026",
+    "title": "Licence Électronique",
+    "company": "Université de Bretagne Occidentale (UBO)",
+    "description": "Mathématiques, électronique analogique, électrocinétique, algorithmique, programmation et introduction à l'automatique."
+  },
+  {
+    "from": "2023",
+    "to": "2024",
+    "title": "Baccalauréat Sciences Mathématiques",
+    "company": "Lycée Hassan II",
+    "description": "Spécialité Mathématiques et Sciences Physiques."
+  }
+]

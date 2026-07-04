@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Pilulier Intelligent Connecté",
+    "description": "Développement d'un pilulier intelligent basé sur ESP32 permettant la distribution automatique de médicaments. Le système intègre un écran LCD, un RTC, un moteur pas à pas, un buzzer, une LED et une application mobile pour la gestion des alarmes et des notifications.",
+    "github_repo": "",
+    "project_url": "",
+    "tags": [
+      "ESP32",
+      "Arduino",
+      "IoT",
+      "Blynk",
+      "Systèmes embarqués",
+      "Électronique"
+    ],
+    "pictures": []
+  },
+  {
+    "title": "Robot Suiveur de Ligne",
+    "description": "Conception et programmation d'un robot suiveur de ligne utilisant des capteurs infrarouges, un Raspberry Pi Pico et des algorithmes de contrôle pour optimiser le suivi de trajectoire.",
+    "github_repo": "",
+    "project_url": "",
+    "tags": [
+      "Robotique",
+      "Raspberry Pi Pico",
+      "Capteurs",
+      "MicroPython",
+      "Contrôle"
+    ],
+    "pictures": []
+  },
+  {
+    "title": "Système d'Arrosage Automatique",
+    "description": "Système intelligent basé sur Arduino permettant l'arrosage automatique des plantes grâce à un capteur d'humidité du sol et une pompe contrôlée automatiquement.",
+    "github_repo": "",
+    "project_url": "",
+    "tags": [
+      "Arduino",
+      "Capteurs",
+      "Automatisation",
+      "Électronique"
+    ],
+    "pictures": []
+  },
+  {
+    "title": "Système de Tri Automatisé",
+    "description": "Projet de tri automatisé utilisant un convoyeur, des capteurs et des actionneurs pour des applications industrielles et de l'industrie 4.0.",
+    "github_repo": "",
+    "project_url": "",
+    "tags": [
+      "Automatisation Industrielle",
+      "Robotique",
+      "Convoyeur",
+      "Capteurs"
+    ],
+    "pictures": []
+  }
+]

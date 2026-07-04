@@ -1,0 +1,33 @@
+import React from 'react';
+import Container from "@/components/Container";
+import FrameworkIcons from "@/app/components/FrameworkIcons";
+
+type Skills = {
+  [key: string]: boolean;
+};
+const MySkills = ({data}: { data: HeroSection }) => {
+  return (
+      <div id="skills">
+        <div
+            className=" p-5 bg-background sm:p-10 w-[100vw] relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]">
+          <Container>
+            <div className="flex justify-end items-end animate-fade-up">
+              <div className="flex flex-col gap-3">
+                <h2 className="tracking-tighter font-semibold sm:text-3xl text-2xl">
+                  Mes Compétences
+                </h2>
+                <p className="text-muted-foreground">
+                  Technologies avec lesquelles j&apos;ai travaillé récemment
+                </p>
+                <div className="sm:w-[23rem] flex gap-3 flex-wrap">
+                  <FrameworkIcons skills={data.skills as Skills} size={100}/>
+                </div>
+              </div>
+            </div>
+          </Container>
+        </div>
+      </div>
+  );
+};
+
+export default MySkills;

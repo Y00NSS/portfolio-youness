@@ -1,26 +1,65 @@
-@import "tailwindcss";
+@import "generatedTheme.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--background-custom);
+    --foreground: var(--foreground-custom);
+    --card: var(--card-custom);
+    --card-foreground: var(--card-foreground-custom);
+    --popover: var(--popover-custom);
+    --popover-foreground: var(--popover-foreground-custom);
+    --primary: var(--primary-custom);
+    --primary-foreground: var(--primary-foreground-custom);
+    --secondary: var(--secondary-custom);
+    --secondary-foreground: var(--secondary-foreground-custom);
+    --muted: var(--muted-custom);
+    --muted-foreground: var(--muted-foreground-custom);
+    --accent: var(--accent-custom);
+    --accent-foreground: var(--accent-foreground-custom);
+    --destructive: var(--destructive-custom);
+    --destructive-foreground: var(--destructive-foreground-custom);
+    --border: var(--border-custom);
+    --input: var(--input-custom);
+    --ring: var(--ring-custom);
+    --radius: var(--radius-custom);
+  }
+
+  .dark {
+    --background: var(--background-custom-dark);
+    --foreground: var(--foreground-custom-dark);
+    --card: var(--card-custom-dark);
+    --card-foreground: var(--card-foreground-custom-dark);
+    --popover: var(--popover-custom-dark);
+    --popover-foreground: var(--popover-foreground-custom-dark);
+    --primary: var(--primary-custom-dark);
+    --primary-foreground: var(--primary-foreground-custom-dark);
+    --secondary: var(--secondary-custom-dark);
+    --secondary-foreground: var(--secondary-foreground-custom-dark);
+    --muted: var(--muted-custom-dark);
+    --muted-foreground: var(--muted-foreground-custom-dark);
+    --accent: var(--accent-custom-dark);
+    --accent-foreground: var(--accent-foreground-custom-dark);
+    --destructive: var(--destructive-custom-dark);
+    --destructive-foreground: var(--destructive-foreground-custom-dark);
+    --border: var(--border-custom-dark);
+    --input: var(--input-custom-dark);
+    --ring: var(--ring-custom-dark);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+        @apply bg-background text-foreground;
+    }
 }
+

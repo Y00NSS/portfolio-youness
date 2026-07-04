@@ -1,0 +1,47 @@
+{
+  "my_name": "Youness EL MOURID",
+  "job_title": "Étudiant en EEA",
+  "title_description": "Étudiant en Électronique, Énergie Électrique et Automatique, passionné par l'automatisation industrielle, la robotique, l'IoT et les systèmes embarqués.",
+  "experience_years": "1+",
+  "projects_completed_count": "4+",
+  "about_me": "Étudiant en Électronique, Énergie Électrique et Automatique. Je développe des projets innovants autour de l'automatisation industrielle, de la robotique, de l'IoT, des systèmes embarqués et du contrôle-commande.",
+  "quote": "L'innovation distingue un leader d'un suiveur.",
+  "author": "Steve Jobs",
+  "i_will_do": [
+    "Automatisation Industrielle",
+    "Robotique",
+    "IoT",
+    "Systèmes embarqués",
+    "Contrôle-Commande",
+    "Arduino",
+    "ESP32",
+    "Électronique",
+    "Maintenance électrique",
+    "Instrumentation industrielle",
+    "Industrie 4.0",
+    "Projets techniques"
+  ],
+  "social_media": {
+    "github": "https://github.com/Y00NSS",
+    "linkedin": "https://www.linkedin.com/in/youness-el-mourid",
+    "cv_download": ""
+  },
+  "skills": {
+    "C": true,
+    "PYTHON": true,
+    "JAVASCRIPT": true,
+    "HTML": true,
+    "CSS": true,
+    "ARDUINO": true,
+    "ESP32": true,
+    "MATLAB": true,
+    "KICAD": true,
+    "GIT": true,
+    "GITHUB": true,
+    "LINUX": true,
+    "IOT": true,
+    "ELECTRONIQUE": true,
+    "AUTOMATISATION": true,
+    "ROBOTIQUE": true
+  }
+}
