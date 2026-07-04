@@ -1,0 +1,2 @@
+1:"$Sreact.fragment"
+0:{"rsc":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/158myu8e_yme3.js","async":true}]],["$","main",null,{"children":[["$","h1",null,{"children":"Youness El Mourid"}],["$","p",null,{"children":"Étudiant en Électronique, Énergie Électrique et Automatique (EEA)"}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"09tLDtOtoUwW4etd7Hefb"}
