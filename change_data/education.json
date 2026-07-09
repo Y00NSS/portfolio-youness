@@ -1,23 +1,30 @@
 [
   {
     "from": "2026",
-    "to": "Présent",
-    "title": "Licence Électronique, Énergie Électrique et Automatique (EEA)",
-    "company": "Université Grenoble Alpes (UGA)",
+    "to": "2027",
+    "title": "Licence 2 Électronique, Énergie Électrique et Automatique (EEA)",
+    "company": "Université Grenoble Alpes (UGA), Grenoble, France",
     "description": "Formation en électronique, automatique, systèmes embarqués, traitement du signal, énergie électrique et automatisation industrielle."
   },
   {
     "from": "2025",
     "to": "2026",
-    "title": "Licence Électronique",
-    "company": "Université de Bretagne Occidentale (UBO)",
-    "description": "Mathématiques, électronique analogique, électrocinétique, algorithmique, programmation et introduction à l'automatique."
+    "title": "Licence 1 Électronique - Sciences pour l'ingénieur (SPI)",
+    "company": "Université de Bretagne Occidentale (UBO), Brest, France",
+    "description": "Formation scientifique et technique orientée vers l’électronique, l’électrocinétique, les mathématiques appliquées, la programmation et l’introduction aux systèmes automatisés."
+  },
+  {
+    "from": "2024",
+    "to": "2025",
+    "title": "Licence 1 Informatique - Sciences pour l'ingénieur (ISI)",
+    "company": "Université de Bretagne Occidentale (UBO), Brest, France",
+    "description": "Formation axée sur les bases de l’informatique, l’algorithmique, la programmation, les mathématiques et la logique, avec une ouverture vers les sciences pour l’ingénieur."
   },
   {
     "from": "2023",
     "to": "2024",
     "title": "Baccalauréat Sciences Mathématiques",
-    "company": "Lycée Hassan II",
+    "company": "Lycée Al Azhar, Maroc",
     "description": "Spécialité Mathématiques et Sciences Physiques."
   }
 ]

@@ -21,13 +21,9 @@ const Footer = ({data}: { data: HeroSection }) => {
               <p className="flex gap-1">
                 <span className="text-muted-foreground">Développé & conçu par</span> <Link
                 className="flex items-center hover:underline hover:text-foreground transition-all font-semibold"
-                href="https://github.com/ayoub007-Bit">Ayoub Khachchab</Link>
+                href="https://github.com/Y00NSS">Youness EL MOURID</Link>
               </p>
-              <p>
-                Le code source est disponible sur <Link
-                className="underline font-semibold hover:text-foreground transition-all"
-                href="https://github.com/ayoub007-Bit/My-Portfolio-Nextjs-typescript">Github</Link>.
-              </p>
+            
             </div>
           </div>
 

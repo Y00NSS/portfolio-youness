@@ -15,8 +15,8 @@ const HeroSection = ({ data }: Props) => {
 
   return (
     <div className="relative flex flex-col-reverse ">
-      <div className="flex flex-col gap-3 rounded-md bg-background sm:p-0  p-5 sm:mt-40 mt-52 pt-3 sm:mb-0 sm:pt-0 sm:pb-0 sm:bg-transparent">
-        <div className="relative sm:-top-20 space-y-10">
+      <div className="flex flex-col gap-3 rounded-md bg-background  p-5  mt-72 pt-3 sm:bg-transparent sm:p-0 sm:mt-40 sm:mb-0">
+        <div className="relative sm:-top-24 space-y-10">
          <p className="animate-fade-left font-bold text-lg sm:text-2xl tracking-tight sm:mt-0 mt-2 ">
           Bonjour👋, je suis {my_name}
          </p>

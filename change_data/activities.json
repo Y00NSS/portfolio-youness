@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Participation au Créathon UBO",
+    "description": "Développement d’un prototype de pilulier connecté lors du Créathon UBO, intégrant ESP32, RTC, LCD, moteur pas à pas et application mobile.",
+    "image": "/activities/img3.jpg"
+  },
+  {
+    "title": "Compétition robot suiveur de ligne",
+    "description": "Travail en équipe avec des étudiants en GEII sur un robot suiveur de ligne, intégrant Raspberry Pi Pico, capteurs infrarouges, tests de trajectoire et documentation technique.",
+    "image": "/activities/img2.jpg"
+  },
+  {
+    "title": "Salon Global Industrie Paris",
+    "description": "Visite du salon Global Industrie à Paris, avec découverte de solutions industrielles innovantes et échanges avec des entreprises internationales et des startups.",
+    "image": "/activities/img6.jpg"
+  },
+  {
+    "title": "European Defense Tech Hackathon 2025",
+    "description": "Présentation d’un projet de détection et suivi de drones FPV par caméras et intelligence artificielle, avec une approche basée sur la vision par ordinateur.",
+    "image": "/activities/img5.jpg"
+  },
+  {
+    "title": "Événement European Defense Tech Hub",
+    "description": "Participation à un événement technologique réunissant étudiants, experts et porteurs de projets autour de l’innovation, des drones, de l’IA et des systèmes embarqués.",
+    "image": "/activities/img7.jpg"
+  },
+  {
+    "title": "Atelier pratique sur les drones FPV",
+    "description": "Réalisation d’un workshop technique portant sur l’assemblage d’un drone FPV, l’étude de sa structure, de son électronique embarquée et de ses principes de pilotage.",
+    "image": "/activities/img8.jpg"
+  }
+]

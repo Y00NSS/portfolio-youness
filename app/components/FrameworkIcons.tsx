@@ -60,6 +60,12 @@ import {
 import {SiExpress} from "react-icons/si";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip";
 import {AiFillGithub} from "react-icons/ai";
+import {
+  SiCplusplus,
+  SiArduino,
+  SiGithub,
+  SiGit,
+} from "react-icons/si";
 
 interface Framework {
   value: string;
@@ -126,6 +132,73 @@ export const allFrameworks: Framework[] = [
   {value: 'TAILWINDCSS', label: 'TailwindCss', icon: <TailwindcssOriginal size={30} color="slategrey"/>},
   {value: 'WEBFLOW', label: 'Webflow', icon: <WebflowOriginal size={30} color="slategrey"/>},
   {value: 'WORDPRESS', label: 'Wordpress', icon: <WordpressOriginal size={30} color="slategrey"/>},
+  { value: "ARDUINO", label: "Arduino", icon: <SiArduino size={30} color="slategrey" /> },
+  {
+  value: "ESP32",
+  label: "ESP32",
+  icon: (
+    <img
+      src="/icons/esp32.png"
+      alt="ESP32"
+      className="w-[30px] h-[30px] object-contain"
+    />
+  ),
+},
+{
+  value: "MATLAB",
+  label: "MATLAB",
+  icon: (
+    <img
+      src="/icons/matlab.png"
+      alt="MATLAB"
+      className="w-[30px] h-[30px] object-contain"
+    />
+  ),
+},
+{
+  value: "RASPBERRY",
+  label: "Raspberry Pi Pico",
+  icon: (
+    <img
+      src="/icons/rasberry.png"
+      alt="Raspberry Pi Pico"
+      className="w-[30px] h-[30px] object-contain"
+    />
+  ),
+},
+{
+  value: "IOT",
+  label: "IoT",
+  icon: (
+    <img
+      src="/icons/iot.png"
+      alt="IoT"
+      className="w-[30px] h-[30px] object-contain"
+    />
+  ),
+},
+{
+  value: "ALTIUM",
+  label: "Altium Designer",
+  icon: (
+    <img
+      src="/icons/altium.png"
+      alt="Altium Designer"
+      className="w-[30px] h-[30px] object-contain"
+    />
+  ),
+},
+{
+  value: "KICAD",
+  label: "KiCad",
+  icon: (
+    <img
+      src="/icons/kicad.png"
+      alt="KiCad"
+      className="w-[30px] h-[30px] object-contain"
+    />
+  ),
+},
 ];
 
 const renderSkills = (skills: { [key: string]: boolean }, size: number) => {

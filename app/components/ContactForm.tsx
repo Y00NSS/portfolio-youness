@@ -21,37 +21,48 @@ const ContactForm = () => {
 
   const router = useRouter();
   // @ts-ignore
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
 
-    try {
-      setSubmitted(true);
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({name, email, message, interested}),
-      });
+  try {
+    setSubmitted(true);
 
-      router.refresh()
-      if (response.ok) {
-        toast.success(`Mr/Mis ${name.charAt(0).toUpperCase() + name.slice(1)}, We will inform ASAP :)`)
-        setName('');
-        setEmail('');
-        setMessage('');
-        setInterested('');
-        setSubmitted(false);
-      } else {
-        toast.error('Unable to submit your message :(');
-        setSubmitted(false);
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        access_key: "3bf2af96-5b72-4a62-b965-97024adbd2c9",
+        subject: "Nouveau message depuis mon portfolio",
+        from_name: "Portfolio Youness",
+        name: name,
+        email: email,
+        message: message,
+        interested: interested,
+      }),
+    });
 
-      }
-    } catch (error) {
-      toast.error("Oops! Something went wrong.");
+    const data = await response.json();
+
+    if (data.success) {
+      toast.success(`Merci ${name}, votre message a été envoyé ✅`);
+
+      setName("");
+      setEmail("");
+      setMessage("");
+      setInterested("");
+      setSubmitted(false);
+    } else {
+      toast.error("Impossible d'envoyer le message ❌");
       setSubmitted(false);
     }
-  };
+  } catch (error) {
+    toast.error("Oops! Something went wrong.");
+    setSubmitted(false);
+  }
+};
 
   return (
       <div className="">
@@ -61,9 +72,9 @@ const ContactForm = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-4">
               <div className="grid grid-rows-2 animate-fade-left">
                 <p className="tracking-tight font-bold sm:text-3xl text-2xl sm:w-96 mr-5">
-                  Discutons de quelque chose de
-                  <span className="text-primary"> cool </span>
-                  ensemble
+                  Collaborons sur des
+                  <span className="text-primary"> projets </span>
+                  innovants et passionnants ! 🚀
                 </p>
                 <div className="flex flex-col justify-end gap-5">
                   <div>Je suis intéressé par ...</div>

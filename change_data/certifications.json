@@ -5,8 +5,8 @@
     "title": "MATLAB Onramp",
     "company": "MathWorks",
     "description": "Introduction à MATLAB, aux calculs numériques et à l'analyse de données pour les applications scientifiques et d'ingénierie.",
-    "logo": "/certiflogo/mathworks-logo.png",
-    "url": ""
+    "logo": "/certiflogo/matlab.png",
+    "url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=32855e0c-c2b3-41b9-8553-23b3c93b8199&"
   },
   {
     "from": "2026",
@@ -15,33 +15,6 @@
     "company": "Udemy",
     "description": "Conception de schémas électroniques et de circuits imprimés (PCB) avec KiCad.",
     "logo": "/certiflogo/udemy-logo.png",
-    "url": ""
-  },
-  {
-    "from": "2026",
-    "to": "2026",
-    "title": "GitHub Foundations",
-    "company": "GitHub",
-    "description": "Maîtrise des bases de Git, GitHub et de la gestion de versions pour les projets logiciels.",
-    "logo": "/certiflogo/github-logo.png",
-    "url": ""
-  },
-  {
-    "from": "2026",
-    "to": "2026",
-    "title": "Linux Essentials",
-    "company": "Linux Professional Institute",
-    "description": "Introduction aux systèmes Linux, aux commandes essentielles et à l'environnement open source.",
-    "logo": "/certiflogo/linux-logo.png",
-    "url": ""
-  },
-  {
-    "from": "2026",
-    "to": "2026",
-    "title": "Arduino Programming",
-    "company": "Udemy",
-    "description": "Développement de projets embarqués avec Arduino, capteurs et actionneurs.",
-    "logo": "/certiflogo/udemy-logo.png",
-    "url": ""
+    "url": "https://www.udemy.com/certificate/UC-d4db629a-83a8-40c3-9377-ce2c2616b316/"
   }
 ]

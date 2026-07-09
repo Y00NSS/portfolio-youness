@@ -12,8 +12,10 @@ const Navbar = () => {
   const links = [
     {title: 'Home', id: 'home'},
     {title: 'À propos', id: 'about'},
-    {title: 'Compétences', id: 'skills'},
     {title: 'Projets', id: 'projects'},
+    {title: 'Activités', id: 'activities'},
+    {title: 'Certifications', id: 'Certifications'}
+    
   ];
 
   const scrollToSection = (id: string) => {

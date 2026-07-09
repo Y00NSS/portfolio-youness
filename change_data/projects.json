@@ -2,8 +2,8 @@
   {
     "title": "Pilulier Intelligent Connecté",
     "description": "Développement d'un pilulier intelligent basé sur ESP32 permettant la distribution automatique de médicaments. Le système intègre un écran LCD, un RTC, un moteur pas à pas, un buzzer, une LED et une application mobile pour la gestion des alarmes et des notifications.",
-    "github_repo": "",
-    "project_url": "",
+    "github_repo": "https://github.com/Y00NSS/Pilulier-Intelligent-Connecte",
+    "project_url": "https://drive.google.com/file/d/1SNx2jOjRW5AJiy8gfv6plSXsddDLsx41/view?usp=sharing",
     "tags": [
       "ESP32",
       "Arduino",
@@ -12,13 +12,20 @@
       "Systèmes embarqués",
       "Électronique"
     ],
-    "pictures": []
+    "pictures": [
+      "/projects/project1/genart1.png",
+      "/projects/project1/genart2.png",
+      "/projects/project1/genart3.png",
+      "/projects/project1/genart4.png",
+      "/projects/project1/genart5.png",
+      "/projects/project1/genart6.png"
+    ]
   },
   {
     "title": "Robot Suiveur de Ligne",
     "description": "Conception et programmation d'un robot suiveur de ligne utilisant des capteurs infrarouges, un Raspberry Pi Pico et des algorithmes de contrôle pour optimiser le suivi de trajectoire.",
-    "github_repo": "",
-    "project_url": "",
+    "github_repo": "https://github.com/Y00NSS/Robot-Suiveur-de-Ligne",
+    "project_url": "https://drive.google.com/file/d/1INB8D2wDisKN7SrIBEGvncOcn4KawO1Q/view?usp=sharing",
     "tags": [
       "Robotique",
       "Raspberry Pi Pico",
@@ -26,32 +33,27 @@
       "MicroPython",
       "Contrôle"
     ],
-    "pictures": []
+    "pictures": [
+      "/projects/project2/utopia1.png",
+      "/projects/project2/utopia2.png",
+      "/projects/project2/utopia3.png"
+    ]
   },
   {
     "title": "Système d'Arrosage Automatique",
     "description": "Système intelligent basé sur Arduino permettant l'arrosage automatique des plantes grâce à un capteur d'humidité du sol et une pompe contrôlée automatiquement.",
-    "github_repo": "",
-    "project_url": "",
+    "github_repo": "https://github.com/Y00NSS/Systeme-Arrosage-Automatique",
+    "project_url": "https://drive.google.com/file/d/1WLoWJRcWq3nR0PfOgu2gclUTjULgyBds/view?usp=sharing",
     "tags": [
       "Arduino",
       "Capteurs",
       "Automatisation",
       "Électronique"
     ],
-    "pictures": []
-  },
-  {
-    "title": "Système de Tri Automatisé",
-    "description": "Projet de tri automatisé utilisant un convoyeur, des capteurs et des actionneurs pour des applications industrielles et de l'industrie 4.0.",
-    "github_repo": "",
-    "project_url": "",
-    "tags": [
-      "Automatisation Industrielle",
-      "Robotique",
-      "Convoyeur",
-      "Capteurs"
-    ],
-    "pictures": []
+    "pictures": [
+      "/projects/project3/chatbot1.png",
+      "/projects/project3/chatbot2.png",
+      "/projects/project3/chatbot3.png"
+    ]
   }
 ]

@@ -4,7 +4,7 @@ import hero_section from "@/change_data/hero_section.json";
 import AboutMe from "@/app/AboutMe";
 import MySkills from "@/app/MySkills";
 import MyProjects from "@/app/MyProjects";
-import DataAnalysisProjects from "@/app/DataAnalysisProjects";
+import ActivitiesSection from "@/app/ActivitiesSection";
 import ContactSection from "@/app/ContactSection";
 import Footer from "@/app/Footer";
 import ExperiencesTimeline from "@/app/ExperiencesTimeline";
@@ -22,7 +22,7 @@ export default function Home() {
                 <ExperiencesTimeline />
                 <MySkills data={hero_section}/>
                 <MyProjects/>
-                <DataAnalysisProjects />
+                <ActivitiesSection/>
                 <CertificationsCards />
                 <ContactSection/>
             </div>
