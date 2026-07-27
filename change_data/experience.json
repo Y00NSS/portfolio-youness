@@ -1,20 +1,20 @@
 [
   {
-    "from": "Juillet 2026",
-    "title": "Stagiaire en Contrôle-Commande Industriel",
-    "company": "OCP SA, Maroc",
-    "description": "Découverte des systèmes d'automatisation industrielle, de l'instrumentation, de la maintenance électrique et des systèmes de contrôle-commande utilisés dans l'industrie des phosphates."
+    "from": "July 2026",
+    "title": "Industrial Control Systems Intern",
+    "company": "OCP SA, Morocco",
+    "description": "Gained hands-on experience with industrial automation systems, instrumentation, electrical maintenance, and industrial control systems used in the phosphate industry."
   },
   {
-    "from": "Juin 2026",
-    "title": "Participant au Creathon UBO",
+    "from": "June 2026",
+    "title": "UBO Creathon Participant",
     "company": "Université de Bretagne Occidentale, France",
-    "description": "Conception et développement d'un pilulier intelligent connecté basé sur ESP32, intégrant un système de distribution automatique de médicaments, des notifications et une application mobile."
+    "description": "Designed and developed a smart connected pill dispenser based on the ESP32, featuring automatic medication dispensing, notifications, and a mobile application."
   },
   {
-    "from": "Mai 2026",
-    "title": "Projet Robot Suiveur de Ligne",
+    "from": "May 2026",
+    "title": "Line-Following Robot Project",
     "company": "IUT GEII Brest-Morlaix, France",
-    "description": "Développement et programmation d'un robot suiveur de ligne utilisant des capteurs infrarouges, des moteurs et des algorithmes de contrôle."
+    "description": "Designed and programmed a line-following robot using infrared sensors, DC motors, and control algorithms."
   }
 ]

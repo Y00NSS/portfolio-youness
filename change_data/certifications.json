@@ -4,7 +4,7 @@
     "to": "2026",
     "title": "MATLAB Onramp",
     "company": "MathWorks",
-    "description": "Introduction à MATLAB, aux calculs numériques et à l'analyse de données pour les applications scientifiques et d'ingénierie.",
+    "description": "Introduction to MATLAB, numerical computing, and data analysis for scientific and engineering applications.",
     "logo": "/certiflogo/matlab.png",
     "url": "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=32855e0c-c2b3-41b9-8553-23b3c93b8199&"
   },
@@ -13,8 +13,17 @@
     "to": "2026",
     "title": "KiCad for Electronic Design",
     "company": "Udemy",
-    "description": "Conception de schémas électroniques et de circuits imprimés (PCB) avec KiCad.",
+    "description": "Design of electronic schematics and printed circuit boards (PCBs) using KiCad.",
     "logo": "/certiflogo/udemy-logo.png",
     "url": "https://www.udemy.com/certificate/UC-d4db629a-83a8-40c3-9377-ce2c2616b316/"
+  },
+  {
+    "from": "2026",
+    "to": "2026",
+    "title": "Arduino Certification Course",
+    "company": "Arduino",
+    "description": "Official Arduino certification covering microcontroller programming and embedded systems development.",
+    "logo": "/certiflogo/arduino-logo.png",
+    "url": "https://certifications-assets-cf.arduino.cc/certificates/ab1f698d-5d3e-45ae-9461-0e0d5adf963e.pdf"
   }
 ]

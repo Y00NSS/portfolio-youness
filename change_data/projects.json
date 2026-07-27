@@ -1,7 +1,7 @@
 [
   {
-    "title": "Pilulier Intelligent Connecté",
-    "description": "Développement d'un pilulier intelligent basé sur ESP32 permettant la distribution automatique de médicaments. Le système intègre un écran LCD, un RTC, un moteur pas à pas, un buzzer, une LED et une application mobile pour la gestion des alarmes et des notifications.",
+    "title": "Smart Connected Pill Dispenser",
+    "description": "Designed and developed a smart ESP32-based pill dispenser for automatic medication dispensing. The system integrates an LCD display, RTC module, stepper motor, buzzer, LED, and a mobile application for alarm scheduling and notifications.",
     "github_repo": "https://github.com/Y00NSS/Pilulier-Intelligent-Connecte",
     "project_url": "https://drive.google.com/file/d/1SNx2jOjRW5AJiy8gfv6plSXsddDLsx41/view?usp=sharing",
     "tags": [
@@ -9,8 +9,8 @@
       "Arduino",
       "IoT",
       "Blynk",
-      "Systèmes embarqués",
-      "Électronique"
+      "Embedded Systems",
+      "Electronics"
     ],
     "pictures": [
       "/projects/project1/genart1.png",
@@ -22,16 +22,16 @@
     ]
   },
   {
-    "title": "Robot Suiveur de Ligne",
-    "description": "Conception et programmation d'un robot suiveur de ligne utilisant des capteurs infrarouges, un Raspberry Pi Pico et des algorithmes de contrôle pour optimiser le suivi de trajectoire.",
+    "title": "Line-Following Robot",
+    "description": "Designed and programmed a line-following robot using infrared sensors, a Raspberry Pi Pico, and control algorithms to achieve accurate and reliable path tracking.",
     "github_repo": "https://github.com/Y00NSS/Robot-Suiveur-de-Ligne",
     "project_url": "https://drive.google.com/file/d/1INB8D2wDisKN7SrIBEGvncOcn4KawO1Q/view?usp=sharing",
     "tags": [
-      "Robotique",
+      "Robotics",
       "Raspberry Pi Pico",
-      "Capteurs",
+      "Sensors",
       "MicroPython",
-      "Contrôle"
+      "Control Systems"
     ],
     "pictures": [
       "/projects/project2/utopia1.png",
@@ -40,15 +40,15 @@
     ]
   },
   {
-    "title": "Système d'Arrosage Automatique",
-    "description": "Système intelligent basé sur Arduino permettant l'arrosage automatique des plantes grâce à un capteur d'humidité du sol et une pompe contrôlée automatiquement.",
+    "title": "Automatic Irrigation System",
+    "description": "Developed an Arduino-based smart irrigation system that automatically waters plants using a soil moisture sensor and an electronically controlled water pump.",
     "github_repo": "https://github.com/Y00NSS/Systeme-Arrosage-Automatique",
     "project_url": "https://drive.google.com/file/d/1WLoWJRcWq3nR0PfOgu2gclUTjULgyBds/view?usp=sharing",
     "tags": [
       "Arduino",
-      "Capteurs",
-      "Automatisation",
-      "Électronique"
+      "Sensors",
+      "Automation",
+      "Electronics"
     ],
     "pictures": [
       "/projects/project3/chatbot1.png",

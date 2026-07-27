@@ -2,29 +2,29 @@
   {
     "from": "2026",
     "to": "2027",
-    "title": "Licence 2 Électronique, Énergie Électrique et Automatique (EEA)",
+    "title": "Bachelor's Degree Year 2 in Electronics, Electrical Energy and Automation (EEA)",
     "company": "Université Grenoble Alpes (UGA), Grenoble, France",
-    "description": "Formation en électronique, automatique, systèmes embarqués, traitement du signal, énergie électrique et automatisation industrielle."
+    "description": "Coursework in electronics, automation, embedded systems, signal processing, electrical energy, and industrial automation."
   },
   {
     "from": "2025",
     "to": "2026",
-    "title": "Licence 1 Électronique - Sciences pour l'ingénieur (SPI)",
+    "title": "Bachelor's Degree Year 1 in Electronics – Engineering Sciences (SPI)",
     "company": "Université de Bretagne Occidentale (UBO), Brest, France",
-    "description": "Formation scientifique et technique orientée vers l’électronique, l’électrocinétique, les mathématiques appliquées, la programmation et l’introduction aux systèmes automatisés."
+    "description": "Scientific and technical education focused on electronics, electrical circuits, applied mathematics, programming, and an introduction to automated systems."
   },
   {
     "from": "2024",
     "to": "2025",
-    "title": "Licence 1 Informatique - Sciences pour l'ingénieur (ISI)",
+    "title": "Bachelor's Degree Year 1 in Computer Science – Engineering Sciences (ISI)",
     "company": "Université de Bretagne Occidentale (UBO), Brest, France",
-    "description": "Formation axée sur les bases de l’informatique, l’algorithmique, la programmation, les mathématiques et la logique, avec une ouverture vers les sciences pour l’ingénieur."
+    "description": "Foundation in computer science, algorithms, programming, mathematics, and logic, with an introduction to engineering sciences."
   },
   {
     "from": "2023",
     "to": "2024",
-    "title": "Baccalauréat Sciences Mathématiques",
-    "company": "Lycée Al Azhar, Maroc",
-    "description": "Spécialité Mathématiques et Sciences Physiques."
+    "title": "Mathematics Baccalaureate",
+    "company": "Al Azhar High School, Morocco",
+    "description": "Specialization in Mathematics and Physics."
   }
 ]
