@@ -28,5 +28,15 @@
     "title": "FPV Drone Hands-On Workshop",
     "description": "Completed a practical workshop on FPV drone assembly, embedded electronics, structural design, and flight control principles.",
     "image": "/activities/img8.jpg"
+  },
+  {
+    "title": "Inside the OCP Control Room",
+    "description": "During my internship at OCP SA, I gained hands-on exposure to industrial control systems and supervision technologies. This experience allowed me to discover SCADA interfaces, process monitoring, industrial instrumentation, and control-command systems used in large-scale phosphate production facilities.",
+    "image": "/activities/img9.jpg"
+  },
+  {
+    "title": "Industrial Automation Internship at OCP SA",
+    "description": "One month of immersive experience in industrial automation, electrical systems, and instrumentation. Working alongside engineers, I explored the technologies that ensure the monitoring, safety, and reliability of industrial processes.",
+    "image": "/activities/img10.jpg"
   }
 ]
