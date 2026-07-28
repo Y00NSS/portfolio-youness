@@ -6,7 +6,7 @@ const EducationTimeline = () => {
     return (
         <div className="sm:py-10 py-5  flex flex-col animate-fade-right">
           <h2 className="font-semibold tracking-tighter sm:text-3xl flex sm:mb-10 mb-5 sm:justify-center text-2xl">
-                Formation
+                Education
           </h2>
             {education.map(item => (
                 <div key={item.title} className="relative px-3 flex sm:grid grid-cols-3">

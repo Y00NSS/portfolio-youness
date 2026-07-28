@@ -107,14 +107,14 @@ const ContactForm = () => {
               <div className=" text-lg sm:leading-8 animate-fade-right">
                 <form onSubmit={handleSubmit}>
                   <div className="flex flex-col gap-3 sm:gap-5">
-                    <Input className="bg-background capitalize" placeholder="Votre nom" type="text" value={name}
+                    <Input className="bg-background capitalize" placeholder="Your Name" type="text" value={name}
                            onChange={(e) => setName(e.target.value)} required/>
-                    <Input className="bg-background" placeholder="Votre email" type="email" value={email}
+                    <Input className="bg-background" placeholder="Your Email" type="email" value={email}
                            onChange={(e) => setEmail(e.target.value)} required/>
-                    <Textarea className="bg-background h-40" placeholder="Votre message" value={message}
+                    <Textarea className="bg-background h-40" placeholder="Your Message" value={message}
                               onChange={(e) => setMessage(e.target.value)} required/>
                     <Button className="w-full flex gap-2" type="submit"
-                            disabled={submitted}><PaperPlaneIcon/>Envoyer {submitted &&
+                            disabled={submitted}><PaperPlaneIcon/>Send Message {submitted &&
                         <ReloadIcon className="animate-spin"/>}</Button>
                   </div>
                 </form>
