@@ -14,11 +14,11 @@ const SeparatorBar = ({data}: { data: HeroSection }) => {
             <div className="flex sm:flex-row flex-col gap-3 sm:gap-12">
             <div className="sm:flex grid grid-cols-4 gap-3">
               <p className="font-bold text-5xl">{data.experience_years}</p>
-              <div className="uppercase w-32 border-l ml-3 sm:ml-0 text-muted-foreground pl-3">Expériences techniques</div>
+              <div className="uppercase w-32 border-l ml-3 sm:ml-0 text-muted-foreground pl-3">Technical Experiences</div>
             </div>
             <div className="sm:flex grid grid-cols-4 gap-3">
               <p className="font-bold text-5xl ">{data.projects_completed_count}</p>
-              <div className="uppercase w-60 border-l ml-3 sm:ml-0 text-muted-foreground pl-3">projets réalisés</div>
+              <div className="uppercase w-60 border-l ml-3 sm:ml-0 text-muted-foreground pl-3">projects completed</div>
             </div>
           </div>
           <div className="flex flex-row gap-3 mr-5">

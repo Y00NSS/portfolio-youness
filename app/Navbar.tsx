@@ -11,9 +11,9 @@ import {Avatar, AvatarFallback, AvatarImage} from "@/components/ui/avatar";
 const Navbar = () => {
   const links = [
     {title: 'Home', id: 'home'},
-    {title: 'À propos', id: 'about'},
-    {title: 'Projets', id: 'projects'},
-    {title: 'Activités', id: 'activities'},
+    {title: 'About me', id: 'about'},
+    {title: 'Projects', id: 'projects'},
+    {title: 'Activities', id: 'activities'},
     {title: 'Certifications', id: 'Certifications'}
     
   ];
@@ -44,7 +44,7 @@ const Navbar = () => {
             <Button onClick={() => scrollToSection('hire_me')}
                     className="lg:-ml-[12rem] flex gap-2 items-center justify-center shadow-xl shadow-primary/50 hover:shadow-primary transition-all duration-500 hover:translate-y-0.5"
                     variant="default">
-              <PaperPlaneIcon/>Me contacter
+              <PaperPlaneIcon/>Contact me
             </Button>
             <ModeToggle/>
           </div>

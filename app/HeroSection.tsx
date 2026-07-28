@@ -18,7 +18,7 @@ const HeroSection = ({ data }: Props) => {
       <div className="flex flex-col gap-3 rounded-md bg-background  p-5  mt-72 pt-3 sm:bg-transparent sm:p-0 sm:mt-40 sm:mb-0">
         <div className="relative sm:-top-24 space-y-10 max-sm:space-y-4">
          <p className="animate-fade-left whitespace-nowrap text-[15px] font-bold tracking-tight sm:mt-0 mt-2 sm:text-2xl ">
-          Bonjour👋, je suis {my_name}
+          Hello👋, I'm {my_name}
          </p>
          <h1
           className="animate-fade-left whitespace-nowrap text-[34px] font-black leading-none tracking-tight text-primary/80 dark:text-primary/80 sm:text-6xl sm:dark:text-primary/60 md:w-[45%]">

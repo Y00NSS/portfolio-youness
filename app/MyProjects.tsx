@@ -72,7 +72,7 @@ const MyProjects = () => {
           <div className="animate-fade-up">
             <div className="flex flex-col gap-3">
               <h2 className="font-semibold tracking-tighter sm:text-3xl text-2xl">
-                Mes Projets
+                My Projects
               </h2>
               <p className="text-muted-foreground">
                 Quelques projets que j&apos;ai réalisés jusqu&apos;à présent.

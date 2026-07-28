@@ -72,12 +72,12 @@ const ContactForm = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-4">
               <div className="grid grid-rows-2 animate-fade-left">
                 <p className="tracking-tight font-bold sm:text-3xl text-2xl sm:w-96 mr-5">
-                  Collaborons sur des
-                  <span className="text-primary"> projets </span>
-                  innovants et passionnants ! 🚀
+                  Let's collaborate on <span className="text-primary">innovative</span> and <span className="text-primary">exciting</span>
+                  <span className="text-primary"> projects </span>
+                  innovative and exciting ! 🚀
                 </p>
                 <div className="flex flex-col justify-end gap-5">
-                  <div>Je suis intéressé par ...</div>
+                  <div>I am interested in ...</div>
                   <RadioGroup defaultValue={interested} className="flex flex-wrap ">
                     {me.i_will_do.map(item => (
                         <div key={item}>

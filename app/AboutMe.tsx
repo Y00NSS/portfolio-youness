@@ -10,7 +10,7 @@ const AboutMe = () => {
                 <Container>
                     <div className="flex flex-col gap-2 sm:gap-4 ">
                         <h2 className=" tracking-tighter font-semibold sm:text-3xl text-2xl animate-fade-left">
-                            À propos de moi
+                            About me
                         </h2>
                         <p className="text-muted-foreground sm:w-[47%] sm:leading-8 animate-fade-left">
                             {me.about_me}

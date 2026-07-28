@@ -51,7 +51,7 @@ const renderContact = (socialMedia: SocialMedia) => {
     renderedContacts.push(
       <Link key="cv_download" href={cvDownloadUrl} target="_blank" rel="noopener noreferrer" className="h-8 px-4 rounded-full hover:-translate-y-1 text-foreground/80 bg-background shadow-lg hover:shadow-primary transition-all flex items-center justify-center gap-2">
         <IoDocumentTextOutline size={18} />
-        <span className="text-sm font-medium">Consulter CV</span>
+        <span className="text-sm font-medium">View CV</span>
       </Link>
     );
   }
